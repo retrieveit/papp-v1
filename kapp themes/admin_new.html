@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN CREATE</title>
+
+
+    <!--STYLESHEET-->
+    <!--=================================================-->
+
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--Nifty Stylesheet [ REQUIRED ]-->
+    <link href="css/nifty.min.css" rel="stylesheet">
+
+    <!--Theme Stylesheet [ REQUIRED ]-->
+    <link href="css/theme-well-red.min.css" rel="stylesheet">
+    
+    <!--Font Awesome [ OPTIONAL ]-->
+    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--Switchery [ OPTIONAL ]-->
+    <link href="plugins/switchery/switchery.min.css" rel="stylesheet">
+
+
+    <!--Bootstrap Select [ OPTIONAL ]-->
+    <link href="plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+
+    <!--Jim Stylesheet [ REQUIRED ]-->
+    <link href="css/jim.css" rel="stylesheet">
+    
+    <!--Dropzone Stylesheet [ REQUIRED ]-->
+    <link href="plugins/dropzone/dropzone.css" rel="stylesheet">   
+
+
+
+
+    <!--SCRIPT-->
+    <!--=================================================-->
+
+    <!--Page Load Progress Bar [ OPTIONAL ]-->
+    <link href="plugins/pace/pace.min.css" rel="stylesheet">
+    <script src="plugins/pace/pace.min.js"></script>
+
+
+    
+	<!--
+
+	REQUIRED
+	You must include this in your project.
+
+	RECOMMENDED
+	This category must be included but you may modify which plugins or components which should be included in your project.
+
+	OPTIONAL
+	Optional plugins. You may choose whether to include it in your project or not.
+
+	DEMONSTRATION
+	This is to be removed, used for demonstration purposes only. This category must not be included in your project.
+
+	SAMPLE
+	Some script samples which explain how to initialize plugins or components. This category should not be included in your project.
+
+
+	Detailed information and more samples can be found in the document.
+
+	-->
+		
+
+</head>
+
+<!--TIPS-->
+<!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
+
+<body>
+	<div id="container" class="effect mainnav-lg">
+		
+        <!--NAVBAR-->
+        <!--===================================================-->
+        <header id="navbar">
+            <div id="navbar-container" class="boxed">
+
+                <!--Brand logo & name-->
+                <!--================================-->
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                            <div class="tgl-menu-btn">
+                                <a class="mainnav-toggle" href="#">
+                                    <i class="fa fa-navicon fa-lg"></i>
+                                </a>
+                            </div>
+                        <div class="brand-title">
+                            <span class="brand-text"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--================================-->
+                <!--End brand logo & name-->
+                
+
+
+
+                   <!--Navbar Dropdown-->
+                <!--================================-->
+                <div class="navbar-content clearfix admin">
+					
+					<div class="pull-left">
+						<h4>kAPP Title</h4>
+					</div>
+
+                    <div class="pull-right">
+
+						<h4>ADMINISTRATOR</h4>
+                        
+                    </div>
+                </div>
+                <!--================================-->
+                <!--End Navbar Dropdown-->
+
+
+
+            </div>
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+		<div class="boxed">
+
+			<!--CONTENT CONTAINER-->
+			<!--===================================================-->
+			<div id="content-container">
+				<div id="page-content">
+
+					<div class="row">
+                        <div class="panel">
+							<div id="new-kapp-wz">
+					
+									<!--nav-->
+									<ul class="row wz-step wz-icon-bw wz-nav-off mar-top wz-steps">
+										<li class="col-xs-3 active">
+											<a data-toggle="tab" href="#new-kapp-tab1" aria-expanded="true">
+												<span class="icon-wrap icon-wrap-xs bg-danger"><i class="fa fa-info"></i></span>
+												<p class="text-thin">Basic Information</p>
+											</a>
+										</li>
+										<li class="col-xs-3">
+											<a data-toggle="tab" href="#new-kapp-tab2" aria-expanded="false">
+												<span class="icon-wrap icon-wrap-xs bg-warning"><i class="fa fa-user"></i></span>
+												<p class="text-thin">Media</p>
+											</a>
+										</li>
+										<li class="col-xs-3">
+											<a data-toggle="tab" href="#new-kapp-tab3">
+												<span class="icon-wrap icon-wrap-xs bg-info"><i class="fa fa-home"></i></span>
+												<p class="text-thin">Create a Chapter</p>
+											</a>
+										</li>
+										<li class="col-xs-3">
+											<a data-toggle="tab" href="#new-kapp-tab4">
+												<span class="icon-wrap icon-wrap-xs bg-success"><i class="fa fa-heart"></i></span>
+												<p class="text-thin">Additional Features</p>
+											</a>
+										</li>
+									</ul>
+					
+									<!--progress bar-->
+									<div class="progress progress-xs">
+										<div class="progress-bar progress-bar-primary" style="width: 25%; left: 0%; position: relative; transition: all 0.5s;"></div>
+									</div>
+					
+					
+									<!--form-->
+									<form class="form-horizontal">
+										<div class="panel-body">
+											<div class="tab-content">
+					
+												<!--First tab-->
+												<div id="new-kapp-tab1" class="tab-pane active in">
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Username</label>
+														<div class="col-lg-7">
+															<input type="text" class="form-control" name="username" placeholder="Username">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Email address</label>
+														<div class="col-lg-7">
+															<input type="email" class="form-control" name="email" placeholder="Email">
+														</div>
+													</div>
+													<hr>
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Password</label>
+														<div class="col-lg-7">
+															<input type="password" class="form-control" name="password" placeholder="Password">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Retype password</label>
+														<div class="col-lg-7">
+															<input type="password" class="form-control" name="password2" placeholder="Retype password">
+														</div>
+													</div>
+												</div>
+					
+												<!--Second tab-->
+												<div id="new-kapp-tab2" class="tab-pane fade">
+													<form id="demo-dropzone" action="#" class="dropzone dz-clickable">
+					                                <div class="dz-default dz-message">
+					                                    <div class="dz-icon icon-wrap icon-circle icon-wrap">
+					                                        <i class="fa fa-cloud-upload fa-3x"></i>
+					                                    </div>
+					                                    <div>
+					                                        <span class="dz-text">Drop files to upload</span>
+					                                        <p class="text-muted">or click to pick manually</p>
+					                                    </div>
+					                                </div>
+					                                
+					                            </form>
+													
+												</div>
+					
+												<!--Third tab-->
+												<div id="new-kapp-tab3" class="tab-pane">
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Phone Number</label>
+														<div class="col-lg-7">
+															<input type="text" placeholder="Phone number" name="phoneNumber" class="form-control">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Address</label>
+														<div class="col-lg-7">
+															<input type="text" placeholder="Address" name="address" class="form-control">
+														</div>
+													</div>
+													<hr>
+													<div class="form-group">
+														<label class="col-lg-3 control-label">City</label>
+														<div class="col-lg-7">
+															<input type="text" placeholder="City" name="city" class="form-control">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Poscode</label>
+														<div class="col-lg-7">
+															<input type="text" placeholder="Poscode" name="poscode" class="form-control">
+														</div>
+													</div>
+												</div>
+					
+												<!--Fourth tab-->
+												<div id="new-kapp-tab4" class="tab-pane">
+													<div class="form-group">
+														<label class="col-lg-3 control-label">Bio</label>
+														<div class="col-lg-7">
+															<textarea placeholder="Tell us your story..." rows="7" name="bio" class="form-control"></textarea>
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="col-lg-7 col-lg-offset-3">
+															<div class="checkbox">
+																<label class="form-checkbox form-icon form-text">
+																	<input type="checkbox" value="java" name="acceptTerms"> Accept the terms and policies
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+					
+					
+										<!--Footer button-->
+										<div class="pull-right pad-all">
+											<button type="button" class="previous btn btn-primary disabled">Previous</button>
+											<button type="button" class="next btn btn-primary">Next</button>
+											<button type="button" class="finish btn btn-success" disabled="" style="display: none;">Finish</button>
+										</div>
+					
+									</form>
+								</div>
+                        	</div>
+						</div>
+
+
+
+				</div>
+			</div>
+			<!--===================================================-->
+			<!--END CONTENT CONTAINER-->
+
+
+			
+            <!--MAIN NAVIGATION-->
+            <!--===================================================-->
+            <nav id="mainnav-container">
+                <div id="mainnav">
+
+                    <!--================================-->
+                    <!--End shortcut buttons-->
+
+                    <!--Menu-->
+                    <!--================================-->
+
+	
+
+                    <div id="mainnav-menu-wrap">
+                        <div class="nano">
+                            <div class="nano-content">
+                                <ul id="mainnav-menu" class="list-group admin">
+						
+                                    <!--Menu list item-->
+                                    <li>
+                                        <a href="admin_home.html">
+                                            <i class="fa fa-home"></i>
+                                            <span class="menu-title">
+                                                <strong>Home</strong>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    
+
+                                    <!--Edit kApp -->
+                                    <li>
+						                <a href="#">
+						                    <i class="fa fa-cog"></i>
+						                    <span class="menu-title"><strong>Edit kApp</strong></span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse in" aria-expanded="false">
+						                    <li><a href="admin_edit.html">kApp Information</a></li>
+											<li class="active-link"><a href="admin_edit_settings.html">Settings</a></li>	
+						                </ul>
+						            </li>
+						            
+						            <!--Users -->
+						            
+                                    <li>
+						                <a href="#">
+						                    <i class="fa fa-user"></i>
+						                    <span class="menu-title"><strong>Users</strong></span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse" aria-expanded="false">
+						                    <li><a href="admin_users.html">Reports</a></li>
+											<li><a href="admin_users.html">Data Fields</a></li>	
+						                </ul>
+						            </li>
+
+
+                                    
+                                    <!--Edit Knowledge -->
+                                    <li>
+						                <a href="#">
+						                    <i class="fa fa-edit"></i>
+						                    <span class="menu-title"><strong>Knowledge</strong></span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse" aria-expanded="false">
+						                    <li><a href="admin_knowledge.html">Edit Structure and Content</a></li>
+											<li><a href="admin_knowledge_manage.html">Manage Media</a></li>	
+						                </ul>
+						            </li>
+
+                                    
+                                    <!--Certificate-->
+                                    <li>
+						                <a href="#">
+						                    <i class="fa fa-certificate"></i>
+						                    <span class="menu-title"><strong>Certification</strong></span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse" aria-expanded="false">
+						                    <li><a href="admin_certification.html">Configure</a></li>
+											<li><a href="admin_certification_questions.html">Questions</a></li>
+											<li><a href="admin_certification_reports.html">Reports</a></li>
+											
+						                </ul>
+						            </li>
+                                  
+                       
+                                    
+                                    <!--Annoucements -->
+                                    <li>
+						                <a href="#">
+						                    <i class="fa fa-bell-o"></i>
+						                    <span class="menu-title"><strong>Announcements</strong></span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse" aria-expanded="false">
+						                    <li><a href="admin_annoucements.html">View All</a></li>
+											<li><a href="admin_annoucements_new.html">Add New</a></li>	
+						                </ul>
+						            </li>
+						            
+						            
+						            
+                                    <!--Helpdesk -->
+                                    <li>
+						                <a href="#">
+						                    <i class="fa fa-question"></i>
+						                    <span class="menu-title"><strong>Helpdesk</strong></span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse" aria-expanded="false">
+						                    <li><a href="admin_helpdesk.html">Answer Questions</a></li>
+											<li><a href="admin_helpdesk_settings.html">Helpdesk Settings</a></li>	
+						                </ul>
+						            </li>
+						            
+						            
+
+
+
+                                </ul>
+
+
+                                <!--Widget-->
+                                <!--================================-->
+                                <div class="mainnav-widget">
+
+                                    <!-- Show the button on collapsed navigation -->
+                                    <div class="show-small">
+                                        <a href="#" data-toggle="menu-widget" data-target="#demo-wg-server">
+                                            <i class="fa fa-unlock-alt"></i>
+                                        </a>
+                                    </div>
+
+                                    <!-- Hide the content on collapsed navigation -->
+                                    <div id="demo-wg-server" class="hide-small mainnav-widget-content">
+                                
+                                <div class="text-center">
+                                    <a href="user_home.html"><button class="btn btn-danger btn-labeled fa fa-lock" >Switch to User </button></a>
+                                </div>
+                                     
+                                    </div>
+                                </div>
+                                <!--================================-->
+                                <!--End widget-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--================================-->
+                    <!--End menu-->
+                               </div>
+            </nav>
+            <!--===================================================-->
+            <!--END MAIN NAVIGATION-->
+
+
+		</div>
+
+		
+
+        <!-- FOOTER -->
+        <!--===================================================-->
+        <footer id="footer">
+
+            <!-- Visible when footer positions are fixed -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="show-fixed pull-right">
+                <ul class="footer-list list-inline">
+                    <li>
+                        <p class="text-sm">SEO Proggres</p>
+                        <div class="progress progress-sm progress-light-base">
+                            <div style="width: 80%" class="progress-bar progress-bar-danger"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <p class="text-sm">Online Tutorial</p>
+                        <div class="progress progress-sm progress-light-base">
+                            <div style="width: 80%" class="progress-bar progress-bar-primary"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-sm btn-dark btn-active-success">Checkout</button>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <!-- Visible when footer positions are static -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="hide-fixed pull-right pad-rgt">Currently v2.3</div>
+
+
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <!-- Remove the class name "show-fixed" and "hide-fixed" to make the content always appears. -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <p class="pad-lft">&#0169; 2015 Your Company</p>
+
+
+
+        </footer>
+        <!--===================================================-->
+        <!-- END FOOTER -->
+
+
+        <!-- SCROLL TOP BUTTON -->
+        <!--===================================================-->
+        <button id="scroll-top" class="btn"><i class="fa fa-chevron-up"></i></button>
+        <!--===================================================-->
+
+
+
+	</div>
+	<!--===================================================-->
+	<!-- END OF CONTAINER -->
+
+
+	
+
+	
+    <!--JAVASCRIPT-->
+    <!--=================================================-->
+
+    <!--jQuery [ REQUIRED ]-->
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+
+    <!--BootstrapJS [ RECOMMENDED ]-->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!--Fast Click [ OPTIONAL ]-->
+    <script src="plugins/fast-click/fastclick.min.js"></script>
+
+    
+    <!--Nifty Admin [ RECOMMENDED ]-->
+    <script src="js/nifty.min.js"></script>
+
+
+    <!--Switchery [ OPTIONAL ]-->
+    <script src="plugins/switchery/switchery.min.js"></script>
+
+
+    <!--Bootstrap Select [ OPTIONAL ]-->
+    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+
+
+    <!--Demo script [ DEMONSTRATION ]-->
+    <script src="js/demo/nifty-demo.min.js"></script>
+
+    <script src="js/demo/ui-modals.js"></script>
+
+
+		
+
+</body>
+</html>
+

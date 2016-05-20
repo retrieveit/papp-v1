@@ -1,0 +1,69 @@
+.navbar-brand i {
+	color: #abb1b7;
+	padding:10px;
+}
+
+li.active-menu i {
+	color: #fff;
+}
+
+li.active-menu span {
+	color: #fff;
+}
+
+#container.aside-bright #aside a.active {
+	color:#fff;
+} 
+
+
+/*** SEARCHBOX ***/
+
+div.searchbox {
+	height: 40px;
+    background: #e3e8ee;
+}
+
+div.searchbox input.form-control {
+	border: none;
+	height:40px;
+}
+
+div.searchbox button {
+	left:-10px;
+}
+
+.panel-group.accordion .panel-title {
+    line-height: 1.4em;
+    white-space: normal;
+    padding: 10px 0px;
+    overflow: auto;
+}
+
+div.navbar-content.clearfix.admin h4 {
+	color:#fff;
+}
+
+/* blue menu bar for user */
+
+#mainnav-menu>.active-link>a {
+	box-shadow: inset 4px 0 0 0 #579ddb;
+}
+
+/* red menu bar for user */
+
+#mainnav-menu.admin>.active-link>a {
+	box-shadow: inset 4px 0 0 0 #da5959;
+}
+
+/* notices link white */
+
+.notices a.panel-group-toggle h3.panel-title {
+	color: #fff;
+}
+
+/** ADMIN BUTTON **/
+
+div#demo-wg-server button {
+background-color: #da5959;
+}
+

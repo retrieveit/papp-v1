@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER TICKET</title>
+
+
+    <!--STYLESHEET-->
+    <!--=================================================-->
+
+
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--Nifty Stylesheet [ REQUIRED ]-->
+    <link href="css/nifty.min.css" rel="stylesheet">
+
+    <!--Dropzone Stylesheet [ REQUIRED ]-->
+    <link href="plugins/dropzone/dropzone.css" rel="stylesheet">
+
+
+    <!--Theme Stylesheet [ REQUIRED ]-->
+    <link href="css/theme-dark.min.css" rel="stylesheet">
+    
+    <!--Font Awesome [ OPTIONAL ]-->
+    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--Switchery [ OPTIONAL ]-->
+    <link href="plugins/switchery/switchery.min.css" rel="stylesheet">
+
+
+    <!--Bootstrap Select [ OPTIONAL ]-->
+    <link href="plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+
+    <!--Jim Stylesheet [ REQUIRED ]-->
+    <link href="css/jim.css" rel="stylesheet">
+
+
+
+
+
+
+
+    <!--SCRIPT-->
+    <!--=================================================-->
+
+    <!--Page Load Progress Bar [ OPTIONAL ]-->
+    <link href="plugins/pace/pace.min.css" rel="stylesheet">
+    <script src="plugins/pace/pace.min.js"></script>
+
+
+    
+    <!--
+
+    REQUIRED
+    You must include this in your project.
+
+    RECOMMENDED
+    This category must be included but you may modify which plugins or components which should be included in your project.
+
+    OPTIONAL
+    Optional plugins. You may choose whether to include it in your project or not.
+
+    DEMONSTRATION
+    This is to be removed, used for demonstration purposes only. This category must not be included in your project.
+
+    SAMPLE
+    Some script samples which explain how to initialize plugins or components. This category should not be included in your project.
+
+
+    Detailed information and more samples can be found in the document.
+
+    -->
+        
+
+</head>
+
+<!--TIPS-->
+<!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
+
+<body>
+    <div id="container" class="effect mainnav-lg aside-in aside-left aside-bright">
+        
+        <!--NAVBAR-->
+        <!--===================================================-->
+        <header id="navbar">
+            <div id="navbar-container" class="boxed">
+
+                <!--Brand logo & name-->
+                <!--================================-->
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                            <div class="tgl-menu-btn">
+                                <a class="mainnav-toggle" href="#">
+                                    <i class="fa fa-navicon fa-lg"></i>
+                                </a>
+                            </div>
+                        <div class="brand-title">
+                            <span class="brand-text"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--================================-->
+                <!--End brand logo & name-->
+
+
+                <!--Navbar Dropdown-->
+                <!--================================-->
+                <div class="navbar-content clearfix">
+
+                    <div class="pull-left"><h4>kApp Name</h4></div>
+
+                    <div class="pull-right">
+                    <!--Searchbox-->
+                        <div class="searchbox">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search..">
+                                <span class="input-group-btn">
+                                    <button class="text-muted" type="button"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--================================-->
+                <!--End Navbar Dropdown-->
+
+            </div>
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+        <div class="boxed">
+<!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div id="content-container">
+                
+                <!--Page Title-->
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                <div id="page-title">
+                    <h1 class="page-header text-overflow">
+                        Title: Click to open this ticket
+                    </h1>
+
+                </div>
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                <!--End page title-->
+
+                <!--Page content-->
+                <!--===================================================-->
+                <div id="page-content">
+
+                    <div class="panel panel-primary">
+
+                            <!--Panel heading-->
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Ticket #444444</h3>
+                                </div>
+
+                        <div class="nano" style="height:500px">
+                            <div class="nano-content pad-all" tabindex="0">
+                                            
+                                <div class="timeline">
+                            
+                                        <!-- Timeline header -->
+
+                                        <div class="timeline-entry">
+                                            <div class="timeline-stat">
+                                                <div class="timeline-icon"></div>
+                                                <div class="timeline-time">5 minutes ago</div>
+                                            </div>
+                                            <div class="timeline-label">
+                                                 <span class="label label-success pull-right">Agent</span>
+                                                <h4 class="text-success text-lg">Agent Responded</h4>
+                                                <p>Hello,</p>
+                                                 <p>Please send a video,</p>
+                                                 <p>-agent</p>
+
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="timeline-entry">
+                                            <div class="timeline-stat">
+                                                <div class="timeline-icon"></div>
+                                                <div class="timeline-time">7 hours ago</div>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <span class="label label-primary pull-right">You</span>
+                                                <h4 class="text-primary text-lg">You responded</h4>
+                                                <p>Please answer the damn question.</p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-entry">
+                                            <div class="timeline-stat">
+                                                <div class="timeline-icon"></div>
+                                                <div class="timeline-time">2 days ago</div>
+                                            </div>
+                                            <div class="timeline-label">
+                                                 <span class="label label-success pull-right">Agent</span>
+                                                <h4 class="text-success text-lg">Agent Responded</h4>
+                                                <p>Hello,</p>
+                                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="timeline-entry">
+                                            <div class="timeline-stat">
+                                                <div class="timeline-icon"></div>
+                                                <div class="timeline-time">3 days ago</div>
+                                            </div>
+                                            <div class="timeline-label">
+                                                 <span class="label label-primary pull-right">You</span>
+                                                <h4 class="text-primary text-lg">Title: Click to open this ticket</h4>
+                                                       <!-- Video -->
+                                                       <p>The user has opened the ticked and submitted a title along with a question and a video.</p>
+                                                    <script src="http://content.jwplatform.com/players/LSWxhOoX-mOLzPMJU.js"></script>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-entry">
+                                            <div class="timeline-stat">
+                                                <div class="timeline-icon"></div>
+                                                <div class="timeline-time">3 days ago</div>
+                                            </div>
+                                            <div class="timeline-label">
+                                            <span class="label label-primary pull-right">You</span>
+                                                <h4 class="text-primary text-lg">You opened the ticket.</h4>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                    
+                        <div class="nano-pane">
+                            <div class="nano-slider" style="height: 138px; transform: translate(0px, 0px);">
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="panel panel-primary">
+                    
+                                <!--Panel heading-->
+                                <div class="panel-heading">
+ 
+                                    <h3 class="panel-title">Reply</h3>
+                                </div>
+                    
+                                <!--Panel body-->
+                                    <div class="panel-body">
+                                   <div class="row">
+                                                <div class="col-md-8">
+                                                 <!--No Label Form-->
+                                                <!--===================================================-->
+
+                                                        <textarea placeholder="Message" rows="13" class="form-control"></textarea>
+
+                                                </div>
+                                                <div class="col-md-4">
+
+                    
+                                                    <!--Dropzonejs-->
+                                                    <!--===================================================-->
+                                                    <form id="demo-dropzone" action="#" class="dropzone dz-clickable">
+                                                        <div class="dz-default dz-message">
+                                                            <div class="dz-icon icon-wrap icon-circle icon-wrap-md">
+                                                                <i class="fa fa-cloud-upload fa-3x"></i>
+                                                            </div>
+                                                            <div>
+                                                                <p class="dz-text">Drop files to upload</p>
+                                                                <p class="text-muted">or click to pick manually</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </form>
+                                                    <!--===================================================-->
+                                                    <!-- End Dropzonejs -->
+
+
+                                                </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-labeled fa fa-arrow-right pull-right">Send Message</button>
+
+                     
+                            
+
+                                            </div>
+                                    </div>
+ 
+                            </div>
+
+                
+                    
+                                   
+                            <div class "row">
+                                <div class="col-md-12">
+                                  
+                                   
+                                </div>
+                            </div>
+                    
+                </div>
+                <!--===================================================-->
+                <!--End page content-->
+
+
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
+
+
+
+            
+            <!--MAIN NAVIGATION-->
+            <!--===================================================-->
+            <nav id="mainnav-container">
+                <div id="mainnav">
+
+                    <!--================================-->
+                    <!--End shortcut buttons-->
+
+
+                    <!--Menu-->
+                    <!--================================-->
+                    <div id="mainnav-menu-wrap">
+                        <div class="nano">
+                            <div class="nano-content">
+                                <ul id="mainnav-menu" class="list-group">
+                        
+                                    <!--Menu list item-->
+                                    <li>
+                                        <a href="user_home.html">
+                                            <i class="fa fa-home"></i>
+                                            <span class="menu-title">
+                                                <strong>Home</strong>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <!--Menu list item-->
+                                    <li>
+                                        <a href="user_knowlegde.html">
+                                            <i class="fa fa-video-camera"></i>
+                                            <span class="menu-title">
+                                                <strong>Knowledge</strong>
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    <!--Menu list item-->
+
+                                    <li>
+                                        <a href="user_certification.html">
+                                            <i class="fa fa-certificate"></i>
+                                            <span class="menu-title">
+                                                <strong>Certification</strong>
+                                            </span>
+                                        </a>
+                                    </li>
+                                  
+                        
+                                    <!--Menu list item-->
+                                    <li>
+                                        <a href="user_annoucements.html">
+                                            <i class="fa fa-bell-o"></i>
+                                            <span class="menu-title">
+                                                <strong>Annoucements</strong>
+                                                <span class="pull-right badge badge-info">3</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                        
+                                    <!--Menu list item-->
+                                    <li class="active-link">
+                                        <a href="user_helpdesk.html">
+                                            <i class="fa fa-envelope"></i>
+                                            <span class="menu-title">
+                                                <strong>Helpdesk</strong>
+                                                <span class="pull-right badge badge-success">9</span>
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    <!--Menu list item-->
+                                    <li>
+                                        <a href="search.html">
+                                            <i class="fa fa-search"></i>
+                                            <span class="menu-title">
+                                                <strong>Search</strong>
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    
+                        
+                    
+
+                                </ul>
+
+
+
+                                <!--Widget-->
+                                <!--================================-->
+                                <div class="mainnav-widget">
+
+                                    <!-- Show the button on collapsed navigation -->
+                                    <div class="show-small">
+                                        <a href="#" data-toggle="menu-widget" data-target="#demo-wg-server">
+                                            <i class="fa fa-unlock-alt"></i>
+                                        </a>
+                                    </div>
+
+                                    <!-- Hide the content on collapsed navigation -->
+                                    <div id="demo-wg-server" class="hide-small mainnav-widget-content">
+                                
+                                <div class="text-center">
+                                    <a href="admin_home.html"><button class="btn btn-primary btn-labeled fa fa-lock" >Admin Panel</button></a>
+                                </div>
+                                     
+                                    </div>
+                                </div>
+                                <!--================================-->
+                                <!--End widget-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--================================-->
+                    <!--End menu-->
+
+                </div>
+            </nav>
+            <!--===================================================-->
+            <!--END MAIN NAVIGATION-->
+            <!--ASIDE-->
+            <!--===================================================-->
+            <aside id="aside-container">
+                <div id="aside">
+                    <div class="nano">
+                        <div class="nano-content">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Helpdesk</h3>
+                                </div>
+                            </div>
+                
+
+                                <div class="list-group list-group-striped">
+                                            <a class="list-group-item  list-item-lg active" href="#">Ticket #4444</a>
+                                            <a class="list-group-item list-item-lg" href="#">Ticket #55667</a>
+                                            <a class="list-group-item list-item-lg" href="#">Ticket #11010</a>
+                                            <a class="list-group-item list-item-lg" href="#">Ticket #99989</a>
+                                            <a class="list-group-item list-item-lg" href="#">Ticket #55554</a>
+                                            <a class="list-group-item list-item-lg" href="#">Ticket #24252</a>
+                                        </div>
+                            <hr>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!--===================================================-->
+            <!--END ASIDE-->
+
+        </div>
+
+        
+
+        <!-- FOOTER -->
+        <!--===================================================-->
+        <footer id="footer">
+
+            <!-- Visible when footer positions are fixed -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="show-fixed pull-right">
+                <ul class="footer-list list-inline">
+                    <li>
+                        <p class="text-sm">SEO Proggres</p>
+                        <div class="progress progress-sm progress-light-base">
+                            <div style="width: 80%" class="progress-bar progress-bar-danger"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <p class="text-sm">Online Tutorial</p>
+                        <div class="progress progress-sm progress-light-base">
+                            <div style="width: 80%" class="progress-bar progress-bar-primary"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn btn-sm btn-dark btn-active-success">Checkout</button>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <!-- Visible when footer positions are static -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <!-- Remove the class name "show-fixed" and "hide-fixed" to make the content always appears. -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <p class="pad-lft">&#0169; 2015 Your Company</p>
+
+
+
+        </footer>
+        <!--===================================================-->
+        <!-- END FOOTER -->
+
+
+        <!-- SCROLL TOP BUTTON -->
+        <!--===================================================-->
+        <button id="scroll-top" class="btn"><i class="fa fa-chevron-up"></i></button>
+        <!--===================================================-->
+
+
+
+    </div>
+    <!--===================================================-->
+    <!-- END OF CONTAINER -->
+
+
+    
+
+    
+    <!--JAVASCRIPT-->
+    <!--=================================================-->
+
+    <!--jQuery [ REQUIRED ]-->
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+
+    <!--BootstrapJS [ RECOMMENDED ]-->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!--Fast Click [ OPTIONAL ]-->
+    <script src="plugins/fast-click/fastclick.min.js"></script>
+
+    
+    <!--Nifty Admin [ RECOMMENDED ]-->
+    <script src="js/nifty.min.js"></script>
+
+
+    <!--Switchery [ OPTIONAL ]-->
+    <script src="plugins/switchery/switchery.min.js"></script>
+
+
+    <!--Bootstrap Select [ OPTIONAL ]-->
+    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+
+
+    <!--Demo script [ DEMONSTRATION ]-->
+    <script src="js/demo/nifty-demo.min.js"></script>
+
+    <script src="js/demo/ui-modals.js"></script>
+
+
+        
+
+</body>
+</html>
+
